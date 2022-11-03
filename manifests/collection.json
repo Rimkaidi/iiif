@@ -1,0 +1,13 @@
+{
+  "id" : "https://Rimkaidi.github.io/iiif/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in Rimkaidi/iiif project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://Rimkaidi.github.io/iiif/manifests/manifest.json",
+    "label" : "Tableau Blumen mythos"
+  } ]
+}
