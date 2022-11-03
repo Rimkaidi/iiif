@@ -1,0 +1,49 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://Rimkaidi.github.io/iiif/manifests/manifest1.json",
+  "@type" : "sc:Manifest",
+  "label" : "Tableau Blumen Mythos",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "Exemple d'un manifest avec une image",
+    "@language" : ""
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "Master AVUN, Paris 8",
+  "sequences" : [ {
+    "@id" : "http://8072026f-e152-49d7-a6af-cc5ec3155d66",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://fb658b84-16e6-4360-b1a6-6793ee82311e",
+      "@type" : "sc:Canvas",
+      "label" : "Empty canvas",
+      "height" : 1431,
+      "width" : 800,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://83d6538b-8a33-482a-a377-9ba1d8ce1bec",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://rimkaidi.github.io/iiif/images/blumen_mythos/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://rimkaidi.github.io/iiif/images/blumen_mythos",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 1431,
+          "width" : 800
+        },
+        "on" : "http://fb658b84-16e6-4360-b1a6-6793ee82311e"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
