@@ -9,5 +9,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://Rimkaidi.github.io/iiif/manifests/manifest1.json",
     "label" : "Tableau Blumen Mythos"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://Rimkaidi.github.io/iiif/manifests/manifest.json",
+    "label" : "[Click to edit label]"
   } ]
 }
